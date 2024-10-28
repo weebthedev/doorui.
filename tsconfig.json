@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/characters/page.jsx", "components/ui/core/nbutton.jsx", "components/ui/animated-grid-pattern.tsx", "components/ui/dot-pattern.tsx", "components/ui/globe.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/characters/page.jsx", "components/ui/core/nbutton.jsx", "components/ui/animated-grid-pattern.tsx", "components/ui/dot-pattern.tsx", "components/ui/globe.jsx", "theme.config.jsx"],
   "exclude": ["node_modules"]
 }
