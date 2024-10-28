@@ -1,5 +1,7 @@
+import { BsDoorOpenFill } from "react-icons/bs"
+
 export default {
-    logo: <span>DoorUI</span>,
+    logo: <BsDoorOpenFill/>,
     project: {
       link: 'https://github.com/shuding/nextra'
     }
