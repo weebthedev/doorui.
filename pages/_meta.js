@@ -1,3 +1,4 @@
 export default {
-    intro: 'Getting Started'
+    intro: 'Introduction',
+    u: 'Getting Started',
 }

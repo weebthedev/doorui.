@@ -7,4 +7,14 @@ export const pageMap = [{
   frontMatter: {
     "sidebarTitle": "Intro"
   }
+}, {
+  name: "u",
+  route: "/u",
+  children: [{
+    name: "installation",
+    route: "/u/installation",
+    frontMatter: {
+      "sidebarTitle": "Installation"
+    }
+  }]
 }];
