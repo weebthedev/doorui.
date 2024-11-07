@@ -109,7 +109,7 @@ export default function SignupForm() {
   return (
     <div className="min-h-screen p-4">
       <Toaster />
-      <div className="w-full sm:w-96 mt-[7rem]">
+      <div className="w-full sm:w-96 mt-[5rem]">
         <div className="mb-4">
           <h1 className="text-3xl font-bold">Sign Up</h1>
           <p className="text-sm text-muted-foreground">

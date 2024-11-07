@@ -716,6 +716,15 @@ body{
 .mt-auto{
   margin-top: auto;
 }
+.mt-\[9rem\]{
+  margin-top: 9rem;
+}
+.mt-\[rem\]{
+  margin-top: rem;
+}
+.mt-\[5rem\]{
+  margin-top: 5rem;
+}
 .inline-block{
   display: inline-block;
 }
@@ -788,6 +797,9 @@ body{
 .h-px{
   height: 1px;
 }
+.h-screen{
+  height: 100vh;
+}
 .max-h-96{
   max-height: 24rem;
 }
@@ -829,6 +841,9 @@ body{
 }
 .w-max{
   width: max-content;
+}
+.w-1\/2{
+  width: 50%;
 }
 .min-w-\[8rem\]{
   min-width: 8rem;
@@ -1049,6 +1064,14 @@ body{
 }
 .bg-transparent{
   background-color: transparent;
+}
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-opacity-30{
   --tw-bg-opacity: 0.3;
