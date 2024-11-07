@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Alert, AlertDescription } from '@/components/ui/alert'
+import { toast, Toaster } from 'sonner'
 
 const signupSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -35,7 +36,10 @@ export default function SignupForm() {
       })
 
       if (response.ok) {
-        router.push('/login')
+        toast.success('Account created successfully! Redirecting in 3 seconds...')
+        setTimeout(() => {
+          router.push('/login')
+        }, 3000)
       } else {
         const errorData = await response.json()
         setError(errorData.error || 'An error occurred during signup')
@@ -46,8 +50,9 @@ export default function SignupForm() {
   }
 
   return (
-    <div className="flex items-left justify-start min-h-screen p-4">
-      <div className="w-full max-w-sm mx-auto mt-[7rem]">
+    <div className="min-h-screen p-4">
+      <Toaster />
+      <div className="w-full sm:w-96 mt-[7rem]">
         <div className="mb-4">
           <h1 className="text-3xl font-bold">Sign Up</h1>
           <p className="text-sm text-muted-foreground">
