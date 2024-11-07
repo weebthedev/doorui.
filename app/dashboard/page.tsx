@@ -13,7 +13,7 @@ export default function DashboardPage() {
   const [user, setUser] = useState<UserData | null>(null)
   const [loading, setLoading] = useState(true)
   const router = useRouter()
-
+ 
   useEffect(() => {
     const fetchUserData = async () => {
       const token = localStorage.getItem('authToken')
