@@ -710,20 +710,14 @@ body{
 .mt-\[3rem\]{
   margin-top: 3rem;
 }
+.mt-\[5rem\]{
+  margin-top: 5rem;
+}
 .mt-\[7rem\]{
   margin-top: 7rem;
 }
 .mt-auto{
   margin-top: auto;
-}
-.mt-\[9rem\]{
-  margin-top: 9rem;
-}
-.mt-\[rem\]{
-  margin-top: rem;
-}
-.mt-\[5rem\]{
-  margin-top: 5rem;
 }
 .inline-block{
   display: inline-block;
@@ -797,9 +791,6 @@ body{
 .h-px{
   height: 1px;
 }
-.h-screen{
-  height: 100vh;
-}
 .max-h-96{
   max-height: 24rem;
 }
@@ -841,9 +832,6 @@ body{
 }
 .w-max{
   width: max-content;
-}
-.w-1\/2{
-  width: 50%;
 }
 .min-w-\[8rem\]{
   min-width: 8rem;
@@ -890,11 +878,11 @@ body{
 .select-none{
   user-select: none;
 }
-.list-none{
-  list-style-type: none;
-}
 .list-disc{
   list-style-type: disc;
+}
+.list-none{
+  list-style-type: none;
 }
 .flex-col{
   flex-direction: column;
@@ -1065,14 +1053,6 @@ body{
 .bg-transparent{
   background-color: transparent;
 }
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
 .bg-opacity-30{
   --tw-bg-opacity: 0.3;
 }
@@ -1149,6 +1129,9 @@ body{
 .pl-2{
   padding-left: 0.5rem;
 }
+.pl-4{
+  padding-left: 1rem;
+}
 .pl-8{
   padding-left: 2rem;
 }
@@ -1160,9 +1143,6 @@ body{
 }
 .pt-0{
   padding-top: 0px;
-}
-.pl-4{
-  padding-left: 1rem;
 }
 .text-left{
   text-align: left;

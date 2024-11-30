@@ -10,10 +10,10 @@ export default function Hero() {
           <div className="flex gap-4 flex-col max-w-xl sm:max-w-2xl w-full items-start"> {/* Changed to items-start */}
             <div className="flex gap-3 sm:gap-4 flex-col items-start"> {/* Changed to items-start */}
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tighter font-semibold">
-                Logging made <br/> perfect.
+                test <br/> perfect.
               </h1>
               <p className="text-lg sm:text-xl leading-relaxed tracking-tight text-muted-foreground">
-                Easily integrate dorr and start today.
+              test
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 mt-3"> {/* Removed justify-center */}
